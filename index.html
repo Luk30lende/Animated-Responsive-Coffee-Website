@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Coffee Website</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- ========== Box Icons ========== -->
     <link
@@ -49,32 +50,74 @@
     <!-- ========== Hero ========== -->
     <section class="hero">
       <div class="hero-text">
-        <h5>#Coffee For Hot Days</h5>
-        <h1>- Cold Brew</h1>
-        <p>
+        <h5 data-aos="fade-right" data-aos-duration="1400">
+          #Coffee For Hot Days
+        </h5>
+        <h1
+          data-aos="zoom-in-left"
+          data-aos-duration="1400"
+          data-aos-delay="200"
+        >
+          - Cold Brew
+        </h1>
+        <p data-aos="fade-right" data-aos-duration="1400" data-aos-delay="300">
           Boost your productivity and build your mood with a glass of coffee in
           the morning. Coffee has a stimulating effect
         </p>
 
-        <div class="main-hero">
+        <div
+          class="main-hero"
+          data-aos="flip-down"
+          data-aos-duration="1400"
+          data-aos-delay="400"
+        >
           <a href="#" class="btn">Order Now</a>
           <a href="#" class="price"> Ksh. 2000 | <span>Regular Price</span> </a>
         </div>
       </div>
 
-      <div class="hero-img">
+      <div class="hero-img" data-aos="zoom-in" data-aos-duration="1400">
         <img src="images/hero.png" alt="Hero Image" />
       </div>
     </section>
 
     <div class="icons">
-      <a href="#"><i class="ri-facebook-fill"></i></a>
-      <a href="#"><i class="ri-instagram-fill"></i></a>
-      <a href="#"><i class="ri-twitter-x-fill"></i></a>
-      <a href="#"><i class="ri-youtube-fill"></i></a>
+      <a
+        href="#"
+        data-aos="fade-in"
+        data-aos-duration="1400"
+        data-aos-delay="600"
+        ><i class="ri-facebook-fill"></i
+      ></a>
+      <a
+        href="#"
+        data-aos="fade-in"
+        data-aos-duration="1400"
+        data-aos-delay="700"
+        ><i class="ri-instagram-fill"></i
+      ></a>
+      <a
+        href="#"
+        data-aos="fade-in"
+        data-aos-duration="1400"
+        data-aos-delay="800"
+        ><i class="ri-twitter-x-fill"></i
+      ></a>
+      <a
+        href="#"
+        data-aos="fade-in"
+        data-aos-duration="1400"
+        data-aos-delay="900"
+        ><i class="ri-youtube-fill"></i
+      ></a>
     </div>
 
-    <div class="scroll">
+    <div
+      class="scroll"
+      data-aos="zoom-out"
+      data-aos-duration="1400"
+      data-aos-delay="550"
+    >
       <a href="#">
         <i class="ri-scroll-to-bottom-line"></i>
         Scroll Down
@@ -83,5 +126,12 @@
 
     <!-- ========== JavaScript File ========== -->
     <script src="script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 1,
+      });
+    </script>
   </body>
 </html>

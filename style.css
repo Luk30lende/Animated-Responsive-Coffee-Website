@@ -269,7 +269,7 @@ section {
     margin: 0px 0px 25px 0px;
     font-size: 27px;
   }
-  .navlist .open {
+  .navlist.open {
     left: 0;
   }
 }
